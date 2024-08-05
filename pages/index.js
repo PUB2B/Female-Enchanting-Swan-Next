@@ -9,8 +9,8 @@ const Landing = (props) => {
     <>
       <div className="landing-container">
         <Head>
-          <title>Female Enchanting Swan</title>
-          <meta property="og:title" content="Female Enchanting Swan" />
+          <title>Junior Shop</title>
+          <meta property="og:title" content="Junior Shop" />
         </Head>
         <a
           href="https://s.shopee.com.br/9Uhf3Zw0t2"

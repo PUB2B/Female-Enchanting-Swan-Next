@@ -183,8 +183,8 @@ Gallery3.defaultProps = {
   image6Src: 'https://play.teleporthq.io/static/svg/default-img.svg',
   content1: undefined,
   image6Alt: 'Artwork 6',
-  heading1: undefined,
   image7Alt1: 'Artwork 7',
+  heading1: undefined,
   image7Src1: 'https://play.teleporthq.io/static/svg/default-img.svg',
 }
 
@@ -192,8 +192,8 @@ Gallery3.propTypes = {
   image6Src: PropTypes.string,
   content1: PropTypes.element,
   image6Alt: PropTypes.string,
-  heading1: PropTypes.element,
   image7Alt1: PropTypes.string,
+  heading1: PropTypes.element,
   image7Src1: PropTypes.string,
 }
 
