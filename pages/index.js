@@ -30,7 +30,7 @@ const Landing = (props) => {
             heading1={
               <>
                 <h2 className="landing-text1 thq-heading-2">
-                  Ofertas relâmpagos todos dias
+                  Ofertas relâmpagos ⚡
                 </h2>
               </>
             }
@@ -42,21 +42,14 @@ const Landing = (props) => {
           termsLink={
             <>
               <span className="landing-text2 thq-body-small">
-                Terms and Conditions
-              </span>
-            </>
-          }
-          cookiesLink={
-            <>
-              <span className="landing-text3 thq-body-small">
-                Cookies Policy
+                Termos de uso LGPD
               </span>
             </>
           }
           privacyLink={
             <>
-              <span className="landing-text4 thq-body-small">
-                Privacy Policy
+              <span className="landing-text3 thq-body-small">
+                Poltica de privacidade
               </span>
             </>
           }
@@ -89,9 +82,6 @@ const Landing = (props) => {
             display: inline-block;
           }
           .landing-text3 {
-            display: inline-block;
-          }
-          .landing-text4 {
             fill: var(--dl-color-theme-neutral-dark);
             display: inline-block;
           }

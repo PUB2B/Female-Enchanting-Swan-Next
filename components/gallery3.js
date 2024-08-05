@@ -29,26 +29,20 @@ const Gallery3 = (props) => {
             </span>
           </div>
           <div className="gallery3-container thq-grid-4">
-            <div className="gallery3-container1"></div>
-            <div className="gallery3-container2"></div>
-            <div className="gallery3-container3"></div>
-            <div className="gallery3-container4"></div>
-            <div className="gallery3-container5"></div>
-            <div className="gallery3-container6">
+            <div className="gallery3-container1">
               <img
                 alt={props.image6Alt}
                 src={props.image6Src}
                 className="gallery3-image6 thq-img-ratio-16-9"
               />
             </div>
-            <div className="gallery3-container7">
+            <div className="gallery3-container2">
               <img
                 alt={props.image7Alt1}
                 src={props.image7Src1}
                 className="gallery3-image7 thq-img-ratio-16-9"
               />
             </div>
-            <div className="gallery3-container8"></div>
           </div>
         </div>
       </div>
@@ -83,43 +77,10 @@ const Gallery3 = (props) => {
           .gallery3-container {
             gap: var(--dl-space-space-oneandhalfunits);
             width: 100%;
+            border-color: var(--dl-color-theme-neutral-dark);
+            border-width: 0px;
           }
           .gallery3-container1 {
-            width: 100%;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-          }
-          .gallery3-container2 {
-            width: 100%;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-          }
-          .gallery3-container3 {
-            width: 100%;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-          }
-          .gallery3-container4 {
-            width: 100%;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-          }
-          .gallery3-container5 {
-            width: 100%;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-          }
-          .gallery3-container6 {
             width: 100%;
             display: flex;
             align-items: center;
@@ -130,7 +91,7 @@ const Gallery3 = (props) => {
             height: 340px;
             max-width: 600px;
           }
-          .gallery3-container7 {
+          .gallery3-container2 {
             width: 100%;
             display: flex;
             align-items: center;
@@ -140,13 +101,6 @@ const Gallery3 = (props) => {
             width: 100%;
             height: 340px;
             max-width: 600px;
-          }
-          .gallery3-container8 {
-            width: 100%;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            display: flex;
-            align-items: center;
-            justify-content: center;
           }
           .gallery3-text2 {
             display: inline-block;

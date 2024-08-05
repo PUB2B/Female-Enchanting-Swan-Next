@@ -17,7 +17,7 @@ const Footer4 = (props) => {
                 <span>
                   {props.privacyLink ?? (
                     <>
-                      <span className="footer4-text6 thq-body-small">
+                      <span className="footer4-text4 thq-body-small">
                         Privacy Policy
                       </span>
                     </>
@@ -26,17 +26,8 @@ const Footer4 = (props) => {
                 <span>
                   {props.termsLink ?? (
                     <>
-                      <span className="footer4-text5 thq-body-small">
+                      <span className="footer4-text3 thq-body-small">
                         Terms and Conditions
-                      </span>
-                    </>
-                  )}
-                </span>
-                <span>
-                  {props.cookiesLink ?? (
-                    <>
-                      <span className="footer4-text4 thq-body-small">
-                        Cookies Policy
                       </span>
                     </>
                   )}
@@ -88,13 +79,10 @@ const Footer4 = (props) => {
             display: flex;
             align-items: flex-start;
           }
+          .footer4-text3 {
+            display: inline-block;
+          }
           .footer4-text4 {
-            display: inline-block;
-          }
-          .footer4-text5 {
-            display: inline-block;
-          }
-          .footer4-text6 {
             fill: var(--dl-color-theme-neutral-dark);
             color: var(--dl-color-theme-neutral-dark);
             display: inline-block;
@@ -124,13 +112,11 @@ const Footer4 = (props) => {
 }
 
 Footer4.defaultProps = {
-  cookiesLink: undefined,
   termsLink: undefined,
   privacyLink: undefined,
 }
 
 Footer4.propTypes = {
-  cookiesLink: PropTypes.element,
   termsLink: PropTypes.element,
   privacyLink: PropTypes.element,
 }
